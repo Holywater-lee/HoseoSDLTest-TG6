@@ -10,3 +10,5 @@ SDL_Texture* m_pTexture;
 SDL_Rect m_sourceRectangle;	 
 // 대상 사각형
 SDL_Rect m_destinationRectangle;
+
+int main(int argc, char* argv[]);
