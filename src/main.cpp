@@ -1,76 +1,75 @@
 #include "../include/main.h"
 
-bool init(const char* title, int xpos, int ypos, 
-          int height, int width, int flags)
+bool init(const char* title, int xpos, int ypos,
+	int height, int width, int flags)
 {
-    if (SDL_Init(SDL_INIT_EVERYTHING) >= 0)
-    {
+	if (SDL_Init(SDL_INIT_EVERYTHING) >= 0)
+	{
 
-        g_pWindow = SDL_CreateWindow( title, 
-                                      xpos, ypos, 
-                                      height, width, flags);
+		g_pWindow = SDL_CreateWindow(title,
+			xpos, ypos,
+			height, width, flags);
 
-        if (g_pWindow != 0)
-        {
-            g_pRenderer = SDL_CreateRenderer(g_pWindow, -1, 0);
-        }
+		if (g_pWindow != 0)
+		{
+			g_pRenderer = SDL_CreateRenderer(g_pWindow, -1, 0);
+		}
 
-    }
-    else
-    {
-        return false;
-    }
+	}
+	else
+	{
+		return false;
+	}
 
-    SDL_SetRenderDrawColor(g_pRenderer, 0, 0, 0, 255);
-  
-  SDL_Surface* pTempSurface = IMG_Load("./assets/animate-alpha.png");
-  m_pTexture = SDL_CreateTextureFromSurface(g_pRenderer, pTempSurface);
-  SDL_FreeSurface(pTempSurface);
+	SDL_SetRenderDrawColor(g_pRenderer, 0, 0, 0, 255);
 
-  m_sourceRectangle.w = 128;
-  m_sourceRectangle.h = 82;
+	SDL_Surface* pTempSurface = IMG_Load("./assets/Dogge.png");
+	m_pTexture = SDL_CreateTextureFromSurface(g_pRenderer, pTempSurface);
+	SDL_FreeSurface(pTempSurface);
 
-  m_destinationRectangle.w = m_sourceRectangle.w;
-  m_destinationRectangle.h = m_sourceRectangle.h;
+	m_sourceRectangle.w = 128;
+	m_sourceRectangle.h = 128;
 
-  m_destinationRectangle.x = m_sourceRectangle.x = 0;
-  m_destinationRectangle.y = m_sourceRectangle.y = 0;
-		
+	m_destinationRectangle.w = m_sourceRectangle.w;
+	m_destinationRectangle.h = m_sourceRectangle.h;
 
-    return true;
+	m_destinationRectangle.x = m_sourceRectangle.x = 0;
+	m_destinationRectangle.y = m_sourceRectangle.y = 0;
+
+
+	return true;
 }
 
 void render()
 {
-    SDL_RenderClear(g_pRenderer);
+	SDL_RenderClear(g_pRenderer);
 
-	  SDL_RenderCopy(g_pRenderer, m_pTexture, &m_sourceRectangle, &m_destinationRectangle);
+	SDL_RenderCopy(g_pRenderer, m_pTexture, &m_sourceRectangle, &m_destinationRectangle);
 
-	
-    SDL_RenderPresent(g_pRenderer);
+	SDL_RenderPresent(g_pRenderer);
 }
 
 int main(int argc, char* argv[])
 {
-    if (init("Breaking Up HelloSDL", 
-              SDL_WINDOWPOS_CENTERED,
-              SDL_WINDOWPOS_CENTERED, 
-              640, 480,
-              SDL_WINDOW_SHOWN))
-    {
-        g_bRunning = true;
-    }
-    else
-    {
-        return 1; // something's wrong
-    }
+	if (init("Breaking Up HelloSDL",
+		SDL_WINDOWPOS_CENTERED,
+		SDL_WINDOWPOS_CENTERED,
+		640, 480,
+		SDL_WINDOW_SHOWN))
+	{
+		g_bRunning = true;
+	}
+	else
+	{
+		return 1; // something's wrong
+	}
 
-    while (g_bRunning)
-    {
-        // handle input - update - render
-        render();
-    }
+	while (g_bRunning)
+	{
+		// handle input - update - render
+		render();
+	}
 
-    SDL_Quit();
-    return 0;
+	SDL_Quit();
+	return 0;
 }
