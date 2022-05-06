@@ -1,4 +1,4 @@
-#define WIDTH (600)
+﻿#define WIDTH (600)
 #define HEIGHT (400)
 
 #include "Game.h"
@@ -17,6 +17,7 @@ Game* Game::s_pInstance = 0;
 // 이 함수의 기능은 어쩌고 저쩌고
 // 한글 입력 테스트2: VS에서 입력
 // 한글한글한글한글한글한글한글한글한글한글
+// UTF-8 BOM으로 변경
 bool Game::setup()
 {
 	bool result;
