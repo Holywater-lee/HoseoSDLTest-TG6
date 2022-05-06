@@ -15,6 +15,8 @@ Game* Game::s_pInstance = 0;
 
 // 한글 입력 테스트: Replit에서 입력
 // 이 함수의 기능은 어쩌고 저쩌고
+// 한글 입력 테스트2: VS에서 입력
+// 한글한글한글한글한글한글한글한글한글한글
 bool Game::setup()
 {
 	bool result;
