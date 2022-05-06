@@ -22,7 +22,7 @@ private:
 
 	float size;
 
-	Vector2D acceleration;
-	Vector2D velocity;
-	Vector2D position;
+	Vector2D acceleration = Vector2D(0, 0);
+	Vector2D velocity = Vector2D(0, 0);
+	Vector2D position = Vector2D(0, 0);
 };

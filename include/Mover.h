@@ -15,9 +15,9 @@ public:
 	float GetMass() const { return mass; }
 
 private:
-	Vector2D acceleration;
-	Vector2D velocity;
-	Vector2D pos;
+	Vector2D acceleration = Vector2D(0, 0);
+	Vector2D velocity = Vector2D(0, 0);
+	Vector2D pos = Vector2D(0, 0);
 
 	float angle;
 	float mass;

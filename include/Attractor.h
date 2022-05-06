@@ -31,7 +31,7 @@ public:
     }
 
 private:
-    Vector2D pos;
+    Vector2D pos = Vector2D(0, 0);
     float mass;
     float r;
 };

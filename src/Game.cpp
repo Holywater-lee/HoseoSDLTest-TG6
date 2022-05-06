@@ -22,7 +22,7 @@ bool Game::setup()
 	_walker = new Walker();
 	attractor = new Attractor(WIDTH / 2, HEIGHT / 2, 100);
 	printf("\n\n\n\n\n\n\n\n");
-	printf("ÁÂ¿ì ¹æÇâÅ°·Î È¸Àü\nZÅ°·Î ÃßÁø\nXÅ°·Î Mover »ý¼º\n¸¶¿ì½º Å¬¸¯À¸·Î ´ëÆ÷ ¹ß»ç\n");
+	printf("í•œê¸€ í…ŒìŠ¤íŠ¸ ï¿½Â¿ï¿½ ï¿½Å°ï¿½ È¸ï¿½\nZÅ°ï¿½ ï¿½\nXÅ°ï¿½ Mover ï¿½\nï¿½ì½º Å¬ï¿½ ï¿½ ï¿½ß»ï¿½\n");
 	printf("\n\n\n\n\n\n\n\n");
 	return result;
 }
@@ -148,7 +148,7 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, in
 	}
 	else
 	{
-		return false; // À©µµ¿ì »ý¼³ ½ÇÆÐ l
+		return false; // ï¿½ ï¿½ ï¿½ l
 	}
 
 	m_bRunning = true;
