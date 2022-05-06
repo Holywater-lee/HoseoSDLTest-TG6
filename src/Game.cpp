@@ -18,6 +18,7 @@ Game* Game::s_pInstance = 0;
 // 한글 입력 테스트2: VS에서 입력
 // 한글한글한글한글한글한글한글한글한글한글
 // UTF-8 BOM으로 변경
+// 다시 VS로 가져가면?
 bool Game::setup()
 {
 	bool result;
