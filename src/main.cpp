@@ -1,75 +1,31 @@
-#include "../include/main.h"
+#include "Game.h" 
+#include <iostream>
 
-bool init(const char* title, int xpos, int ypos,
-	int height, int width, int flags)
-{
-	if (SDL_Init(SDL_INIT_EVERYTHING) >= 0)
-	{
-
-		g_pWindow = SDL_CreateWindow(title,
-			xpos, ypos,
-			height, width, flags);
-
-		if (g_pWindow != 0)
-		{
-			g_pRenderer = SDL_CreateRenderer(g_pWindow, -1, 0);
-		}
-
-	}
-	else
-	{
-		return false;
-	}
-
-	SDL_SetRenderDrawColor(g_pRenderer, 0, 0, 0, 255);
-
-	SDL_Surface* pTempSurface = IMG_Load("./assets/Dogge.png");
-	m_pTexture = SDL_CreateTextureFromSurface(g_pRenderer, pTempSurface);
-	SDL_FreeSurface(pTempSurface);
-
-	m_sourceRectangle.w = 128;
-	m_sourceRectangle.h = 128;
-
-	m_destinationRectangle.w = m_sourceRectangle.w;
-	m_destinationRectangle.h = m_sourceRectangle.h;
-
-	m_destinationRectangle.x = m_sourceRectangle.x = 0;
-	m_destinationRectangle.y = m_sourceRectangle.y = 0;
-
-
-	return true;
-}
-
-void render()
-{
-	SDL_RenderClear(g_pRenderer);
-
-	SDL_RenderCopy(g_pRenderer, m_pTexture, &m_sourceRectangle, &m_destinationRectangle);
-
-	SDL_RenderPresent(g_pRenderer);
-}
+const int FPS = 60;
+const int DELAY_TIME = 1000.0f / FPS;
 
 int main(int argc, char* argv[])
 {
-	if (init("Breaking Up HelloSDL",
-		SDL_WINDOWPOS_CENTERED,
-		SDL_WINDOWPOS_CENTERED,
-		640, 480,
-		SDL_WINDOW_SHOWN))
+	if (TheGame::Instance()->setup())
 	{
-		g_bRunning = true;
-	}
-	else
-	{
-		return 1; // something's wrong
-	}
+		Uint32 frameStart, frameTime;
+		while (TheGame::Instance()->running()) {
+			frameStart = SDL_GetTicks();     // step 1
 
-	while (g_bRunning)
-	{
-		// handle input - update - render
-		render();
-	}
+			TheGame::Instance()->handleEvents();
+			TheGame::Instance()->update();
+			TheGame::Instance()->render();
 
-	SDL_Quit();
+			frameTime = SDL_GetTicks() - frameStart;  // step 2
+			if (frameTime < DELAY_TIME) {
+				SDL_Delay((int)(DELAY_TIME - frameTime)); // step 3
+			}
+		}
+	}
+	else {
+		std::cerr << "game init failure %s" << SDL_GetError();
+		return -1;
+	}
+	TheGame::Instance()->clean();
 	return 0;
 }

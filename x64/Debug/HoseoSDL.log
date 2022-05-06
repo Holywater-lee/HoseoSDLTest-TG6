@@ -1,3 +1,91 @@
-﻿  main.cpp
-D:\github_desktop\HoseoSDLTest-TG6\include\main.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  HoseoSDL.vcxproj -> D:\github_desktop\HoseoSDLTest-TG6\x64\Debug\HoseoSDL.exe
+﻿  Ball.cpp
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(50,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,139): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Utility.h(12,17): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Utility.h(20,18): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(21,47): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(21,35): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(22,63): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(22,59): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(22,42): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(23,59): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(23,55): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(23,38): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(24,83): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(24,67): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(24,51): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(24,34): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Ball.cpp(34,48): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  InputHandler.cpp
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(50,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,139): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\InputHandler.cpp(29,47): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\InputHandler.cpp(30,47): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mover.cpp
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(50,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,139): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Utility.h(12,17): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Utility.h(20,18): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(9,31): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,121): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,105): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,89): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,73): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,57): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(36,41): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,117): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,101): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,85): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,53): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Mover.cpp(37,37): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Walker.cpp
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(50,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,139): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Vector2D.h(110,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\include\Walker.h(25,22): warning C4305: '초기화 중': 'double'에서 'const float'(으)로 잘립니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(37,45): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(37,31): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(38,14): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(45,15): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(54,52): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(54,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(55,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(55,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(57,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(57,47): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(58,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(58,47): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(59,65): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(59,43): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(60,65): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(60,43): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(62,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(63,34): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(63,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(64,34): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(64,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,121): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,105): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,89): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,73): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,57): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(66,41): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,117): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,101): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,85): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,53): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\HoseoSDLTest-TG6\src\Walker.cpp(67,37): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+F:\github_desktop\HoseoSDLTest-TG6\src\main.cpp(5,32): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  HoseoSDL.vcxproj -> F:\github_desktop\HoseoSDLTest-TG6\x64\Debug\HoseoSDL.exe

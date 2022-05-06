@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{6aa7b4a4-3497-468d-9c43-0a6541c6d785}</ProjectGuid>
     <RootNamespace>HoseoSDL</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -142,10 +142,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Ball.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\InputHandler.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Mover.cpp" />
+    <ClCompile Include="src\Walker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Attractor.h" />
+    <ClInclude Include="include\Ball.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\InputHandler.h" />
     <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\Mover.h" />
+    <ClInclude Include="include\Utility.h" />
+    <ClInclude Include="include\Vector2D.h" />
+    <ClInclude Include="include\Walker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
