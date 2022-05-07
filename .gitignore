@@ -1,5 +1,4 @@
 bin
 build
-x64
-x86
+Debug
 .vs
